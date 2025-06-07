@@ -1,7 +1,4 @@
-# bad code example
-# Exemplo de código ruim: Processamento de pedidos com várias responsabilidades
-# Este código mistura lógica de pagamento, validação de endereço e processamento de pedidos,
-# tornando difícil a manutenção e a compreensão.
+
 def processar_pedido(pedido):
     if pedido['tipo_pagamento'] == 'cartao':
         print('Processando pagamento com cartão...')
